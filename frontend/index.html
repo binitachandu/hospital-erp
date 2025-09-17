@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hospital ERP - Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">🏥 Hospital ERP</a>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <h1 class="mb-4">Dashboard</h1>
+    <div class="row g-3">
+      <div class="col-md-3">
+        <div class="card text-bg-light">
+          <div class="card-body">
+            <h5 class="card-title">Patients</h5>
+            <p class="card-text" id="patients-count">0</p>
+            <a href="patients.html" class="btn btn-primary btn-sm">View</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-bg-light">
+          <div class="card-body">
+            <h5 class="card-title">Appointments</h5>
+            <p class="card-text" id="appointments-count">0</p>
+            <a href="appointments.html" class="btn btn-primary btn-sm">View</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-bg-light">
+          <div class="card-body">
+            <h5 class="card-title">Pharmacy</h5>
+            <p class="card-text" id="pharmacy-count">0</p>
+            <a href="pharmacy.html" class="btn btn-primary btn-sm">View</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-bg-light">
+          <div class="card-body">
+            <h5 class="card-title">Lab Orders</h5>
+            <p class="card-text" id="lab-count">0</p>
+            <a href="lab.html" class="btn btn-primary btn-sm">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
